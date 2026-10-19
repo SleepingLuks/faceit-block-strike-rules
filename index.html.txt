@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09090c">
+  <title>FACEIT — Block Strike Duels</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">FACEIT<span>.</span></a>
+    <nav>
+      <a href="#rules">Правила</a>
+      <a href="#matches">Матчи</a>
+      <a href="#evidence">Доказательства</a>
+      <a href="https://t.me/KnifeModeFaceit"
+         target="_blank" rel="noopener noreferrer">Telegram ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">BLOCK STRIKE · 1 VS 1</div>
+      <h1>ИГРАЙ.<br><span>ПОБЕЖДАЙ.</span><br>ПОДТВЕРЖДАЙ.</h1>
+      <p>
+        Площадка для честных ножевых дуэлей.
+        Изучай правила, находи соперников
+        и подтверждай каждый результат.
+      </p>
+      <div class="buttons">
+        <a class="button red"
+           href="https://t.me/KnifeModeFaceit">
+          Открыть Telegram ↗
+        </a>
+        <a class="button dark" href="#rules">
+          Читать правила ↓
+        </a>
+      </div>
+      <div class="emblem">F<span>×</span>S</div>
+      <div class="hero-label">SKILL OVER LUCK / FAIR PLAY</div>
+    </section>
+
+    <section class="cards">
+      <a href="#rules" class="card">
+        <small>01 / RULEBOOK</small>
+        <h2>Правила</h2>
+        <p>Запрещённые модификации и честная игра.</p>
+      </a>
+      <a href="#matches" class="card">
+        <small>02 / MATCH FLOW</small>
+        <h2>Матчи</h2>
+        <p>От поиска соперника до финального счёта.</p>
+      </a>
+      <a href="#evidence" class="card">
+        <small>03 / PROOF</small>
+        <h2>Доказательства</h2>
+        <p>Скриншоты результатов и подача жалоб.</p>
+      </a>
+    </section>
+
+    <section class="section" id="rules">
+      <div class="tag">01 / RULEBOOK</div>
+      <h2>ПРАВИЛА <span>ДУЭЛЕЙ</span></h2>
+      <p class="muted">
+        Перед первой игрой обязательно ознакомься
+        со всеми правилами.
+      </p>
+
+      <article class="rule">
+        <h3>01. Запрещённые модификации</h3>
+        <p>Запрещены читы и любые запрещённые модификации Block Strike.</p>
+        <p>Запрещены модификации, дающие нечестное преимущество.</p>
+      </article>
+
+      <article class="rule">
+        <h3>02. Аккаунты</h3>
+        <p>Используй собственный Telegram-аккаунт и свой Block Strike ID.</p>
+        <p>Запрещено использовать чужие аккаунты для обхода правил и рейтинга.</p>
+      </article>
+
+      <article class="rule">
+        <h3>03. Честная игра</h3>
+        <p>Запрещены поддельные доказательства и намеренная подмена времени.</p>
+        <p>Нельзя намеренно покидать матч, чтобы избежать поражения.</p>
+      </article>
+
+      <article class="rule">
+        <h3>04. Администрация</h3>
+        <p>Администрация проверяет результаты и рассматривает жалобы.</p>
+        <p>Если доказательств недостаточно, матч может быть отменён без изменения рейтинга.</p>
+      </article>
+
+      <div class="notice">
+        <strong>ВАЖНО</strong>
+        <p>
+          Полный список правил и обязательная информация
+          находятся в Telegram-канале
+          <a href="https://t.me/KnifeModeFaceit">@KnifeModeFaceit</a>.
+        </p>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="matches">
+      <div class="tag">02 / MATCH FLOW</div>
+      <h2>КАК ПРОХОДИТ <span>МАТЧ</span></h2>
+
+      <article class="rule">
+        <h3>01. Найди соперника</h3>
+        <p>Открой Telegram-бота и выбери поиск дуэли.</p>
+      </article>
+
+      <article class="rule">
+        <h3>02. Синхронизируй время</h3>
+        <p>Отправь местное время в формате ЧЧ:ММ, следуя подсказкам бота.</p>
+      </article>
+
+      <article class="rule">
+        <h3>03. Подготовь комнату</h3>
+        <p>Проверь карту, название комнаты, пароль и свою роль Host.</p>
+      </article>
+
+      <article class="rule">
+        <h3>04. Заверши дуэль</h3>
+        <p>Сыграй матч и отправь скриншот результата через бота.</p>
+      </article>
+    </section>
+
+    <section class="section" id="evidence">
+      <div class="tag">03 / PROOF & REPORTS</div>
+      <h2>ДОКАЗАТЕЛЬСТВА <span>И ЖАЛОБЫ</span></h2>
+      <article class="rule">
+        <h3>Скриншот результата</h3>
+        <p>На доказательстве должны быть видны счёт и участники матча.</p>
+      </article>
+      <article class="rule">
+        <h3>Неявка или отсутствие комнаты</h3>
+        <p>После установленного времени ожидания приложи скриншот, подтверждающий ситуацию.</p>
+      </article>
+      <article class="rule">
+        <h3>Подача жалобы</h3>
+        <p>Опиши проблему, выбери подходящую причину и приложи доказательство.</p>
+      </article>
+    </section>
+
+    <section class="end">
+      <div class="tag">READY TO PLAY?</div>
+      <h2>ПРОЧИТАЛ ПРАВИЛА?<br><span>ПОРА В ДУЭЛЬ.</span></h2>
+      <a class="button red"
+         href="https://t.me/KnifeModeFaceit">
+        Перейти в Telegram ↗
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#" class="logo">FACEIT<span>.</span></a>
+    <small>BLOCK STRIKE DUELS · FAIR PLAY</small>
+    <a href="#rules">К правилам ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
