@@ -168,9 +168,9 @@ a:focus-visible {
 
 .emblem {
   position: absolute;
-  right: 8%;
-  top: 115px;
-  max-width: 48%;
+  right: 12%;
+  top: 100px;
+  max-width: none;
   color: transparent;
   background: linear-gradient(110deg, #fff 8%, #ff4658 28%, #ffffff 45%, #a11c35 63%, #fff 82%);
   background-size: 240% auto;
