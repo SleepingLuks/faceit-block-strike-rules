@@ -310,3 +310,27 @@ footer {
     transition: none !important;
   }
 }
+
+.guide-figure {
+  margin: 24px 0 8px;
+}
+
+.guide-image {
+  display: block;
+  width: 100%;
+  max-width: 620px;
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid #393941;
+  border-radius: 12px;
+}
+
+.guide-figure figcaption {
+  max-width: 620px;
+  margin: 10px auto 0;
+  color: #a5a5af;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
