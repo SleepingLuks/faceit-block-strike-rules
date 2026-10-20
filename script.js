@@ -161,8 +161,8 @@
     while (walker.nextNode()) nodes.push(walker.currentNode);
 
     nodes.forEach(node => {
-      if (!node.dataset.originalText) node.dataset.originalText = node.nodeValue;
-      const original = node.dataset.originalText;
+      if (node.__faceitOriginalText === undefined) node.__faceitOriginalText = node.nodeValue;
+      const original = node.__faceitOriginalText;
       const key = normalize(original);
       if (language === "ru") {
         node.nodeValue = original;
