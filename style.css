@@ -137,11 +137,12 @@ h1 {
 
 .emblem {
   position: absolute;
-  right: 12%;
-  top: 100px;
+  right: 8%;
+  top: 115px;
   color: white;
-  font-size: clamp(90px, 17vw, 190px);
+  font-size: clamp(42px, 8vw, 100px);
   font-weight: 900;
+  letter-spacing: -5px;
   font-style: italic;
   text-shadow: 0 0 60px #ff263833;
   transform: rotate(-9deg);
@@ -255,6 +256,15 @@ h1 {
 
 .end h2 {
   margin: 20px 0 30px;
+}
+
+.end .end-cta {
+  font-size: clamp(30px, 5vw, 54px);
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: -1.8px;
+  line-height: 1.05;
+  text-transform: none;
 }
 
 footer {
