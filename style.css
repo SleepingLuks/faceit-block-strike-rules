@@ -373,6 +373,107 @@ footer {
   }
 }
 
+
+/* Subtle visual polish: motion stays decorative and never blocks interaction. */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: -35% -20%;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 72% 38%, #ff26381c 0, transparent 32%),
+    radial-gradient(ellipse at 20% 82%, #6e183015 0, transparent 38%);
+  animation: hero-ambient 12s ease-in-out infinite alternate;
+}
+
+@keyframes hero-ambient {
+  from { transform: translate3d(-1%, -1%, 0) scale(1); opacity: .65; }
+  to { transform: translate3d(1.5%, 1%, 0) scale(1.06); opacity: 1; }
+}
+
+.button {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  border-radius: 3px;
+  transition: transform .2s ease, box-shadow .25s ease, border-color .25s ease;
+}
+
+.button::after {
+  content: "";
+  position: absolute;
+  top: -60%;
+  bottom: -60%;
+  left: -45%;
+  width: 28%;
+  pointer-events: none;
+  background: linear-gradient(90deg, transparent, #ffffff55, transparent);
+  transform: skewX(-22deg);
+  transition: left .55s ease;
+}
+
+.button:hover::after {
+  left: 130%;
+}
+
+.button.red:hover {
+  box-shadow: 0 0 24px #ff26382e;
+}
+
+.button.dark:hover {
+  border-color: #ff5265;
+  box-shadow: 0 0 18px #ff26381c;
+}
+
+.card {
+  overflow: hidden;
+  background-image: linear-gradient(135deg, #ffffff04, transparent 58%);
+  transition: border-color .25s ease, transform .25s ease, background-color .25s ease, box-shadow .25s ease;
+}
+
+.card:hover {
+  box-shadow: 0 10px 32px #00000026, 0 0 22px #ff26380b;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--red), #ff9aa4, transparent);
+  opacity: 0;
+  transform: scaleX(.45);
+  transition: opacity .25s ease, transform .25s ease;
+  pointer-events: none;
+}
+
+.card:hover::before {
+  opacity: .9;
+  transform: scaleX(1);
+}
+
+.rule {
+  border-radius: 4px;
+  transition: border-color .22s ease, background-color .22s ease;
+}
+
+.rule:hover {
+  border-color: #543039;
+  background-color: #171319;
+}
+
+nav a,
+footer a {
+  transition: color .2s ease;
+}
+
+::selection {
+  color: #fff;
+  background: #b91f32;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
