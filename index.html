@@ -1,4 +1,4 @@
-
+```html
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -12,6 +12,7 @@
   <header class="header">
     <a href="#" class="logo">FACEIT<span>.</span></a>
     <nav>
+      <a href="#registration">Регистрация</a>
       <a href="#rules">Правила</a>
       <a href="#matches">Матчи</a>
       <a href="#evidence">Доказательства</a>
@@ -34,8 +35,8 @@
            href="https://t.me/KnifeModeFaceit">
           Открыть Telegram ↗
         </a>
-        <a class="button dark" href="#rules">
-          Читать правила ↓
+        <a class="button dark" href="#registration">
+          Как зарегистрироваться ↓
         </a>
       </div>
       <div class="emblem">F<span>×</span>S</div>
@@ -43,25 +44,176 @@
     </section>
 
     <section class="cards">
+      <a href="#registration" class="card">
+        <small>01 / REGISTRATION</small>
+        <h2>Регистрация</h2>
+        <p>Указание игровых данных и проверка аккаунта.</p>
+      </a>
       <a href="#rules" class="card">
-        <small>01 / RULEBOOK</small>
+        <small>02 / RULEBOOK</small>
         <h2>Правила</h2>
         <p>Запрещённые модификации и честная игра.</p>
       </a>
       <a href="#matches" class="card">
-        <small>02 / MATCH FLOW</small>
+        <small>03 / MATCH FLOW</small>
         <h2>Матчи</h2>
         <p>От поиска соперника до финального счёта.</p>
       </a>
       <a href="#evidence" class="card">
-        <small>03 / PROOF</small>
+        <small>04 / PROOF</small>
         <h2>Доказательства</h2>
         <p>Скриншоты результатов и подача жалоб.</p>
       </a>
     </section>
 
+    <!-- РЕГИСТРАЦИЯ -->
+    <section class="section" id="registration">
+      <div class="tag">01 / REGISTRATION</div>
+      <h2>РЕГИСТРАЦИЯ <span>И ПРОФИЛЬ</span></h2>
+      <p class="muted">
+        Чтобы участвовать в дуэлях FACEIT, зарегистрируйся
+        через Telegram-бота и подтверди свой игровой аккаунт.
+      </p>
+
+      <article class="rule">
+        <h3>01. Начало регистрации</h3>
+        <p>
+          Открой Telegram-бота FACEIT, нажми «Регистрация»
+          и следуй инструкциям. Тебе потребуется указать
+          игровой никнейм и Block Strike ID.
+        </p>
+      </article>
+
+      <article class="rule">
+        <h3>02. Никнейм и Block Strike ID</h3>
+        <p>
+          Никнейм и ID должны полностью совпадать с данными
+          твоего текущего аккаунта в Block Strike.
+          Проверь их перед отправкой.
+        </p>
+        <p>
+          Если данные не совпадают, на тебя могут подать жалобу.
+          При подтверждении нарушения администрация может
+          применить наказание.
+        </p>
+        <figure class="guide-figure">
+          <img
+            src="image/data-copying.jpg"
+            alt="Как скопировать никнейм и Block Strike ID"
+            class="guide-image"
+            loading="lazy"
+          >
+          <figcaption>
+            Где найти и скопировать свой никнейм и Block Strike ID.
+          </figcaption>
+        </figure>
+      </article>
+
+      <article class="rule">
+        <h3>03. Дождись заявки в друзья</h3>
+        <p>
+          После отправки данных администратор проверит твой ID
+          и отправит заявку в друзья в Block Strike.
+          Дождись уведомления от Telegram-бота.
+        </p>
+      </article>
+
+      <article class="rule">
+        <h3>04. Прими заявку</h3>
+        <p>
+          Открой Block Strike, найди входящую заявку
+          от администратора FACEIT и прими её.
+        </p>
+        <figure class="guide-figure">
+          <img
+            src="image/friend-request.png"
+            alt="Входящая заявка в друзья от администратора FACEIT"
+            class="guide-image"
+            loading="lazy"
+          >
+          <figcaption>
+            Прими заявку администратора в списке входящих друзей.
+          </figcaption>
+        </figure>
+      </article>
+
+      <article class="rule">
+        <h3>05. Отправь код проверки</h3>
+        <p>
+          После того как администратор отметит отправку заявки
+          в боте, в Telegram тебе придёт шестизначный код.
+        </p>
+        <p>
+          Отправь этот код в личные сообщения администратору
+          непосредственно в Block Strike.
+        </p>
+        <div class="notice">
+          <strong>ID АДМИНИСТРАТОРА</strong>
+          <p>
+            <code>35144997</code>
+          </p>
+          <p>
+            Перед отправкой проверь, что открыл профиль
+            именно с этим ID.
+          </p>
+        </div>
+        <figure class="guide-figure">
+          <img
+            src="image/sending-code.jpg"
+            alt="Код проверки в Telegram и инструкция отправить его администратору в Block Strike"
+            class="guide-image"
+            loading="lazy"
+          >
+          <figcaption>
+            Скопируй код из Telegram и отправь его администратору
+            с ID 35144997 в личные сообщения Block Strike.
+          </figcaption>
+        </figure>
+      </article>
+
+      <article class="rule">
+        <h3>06. Дождись подтверждения</h3>
+        <p>
+          После проверки администратор подтвердит регистрацию.
+          До подтверждения поиск дуэлей может быть недоступен.
+        </p>
+      </article>
+
+      <div class="notice">
+        <strong>ЕСЛИ ВОЗНИКЛА ПРОБЛЕМА</strong>
+        <p>
+          Если заявка не пришла, код не принимается
+          или проверка затянулась, проверь правильность ID
+          и обратись к администрации FACEIT.
+        </p>
+      </div>
+
+      <article class="rule">
+        <h3>07. Профиль игрока</h3>
+        <p>В профиле отображаются:</p>
+        <ul>
+          <li>Никнейм и Block Strike ID.</li>
+          <li>Текущий рейтинг Elo.</li>
+          <li>Количество сыгранных матчей.</li>
+          <li>История результатов.</li>
+          <li>Место в таблице лидеров.</li>
+        </ul>
+      </article>
+
+      <article class="rule">
+        <h3>08. Изменение данных</h3>
+        <p>
+          Если ты изменил никнейм или игровой аккаунт,
+          обнови данные в FACEIT. Изменение никнейма может
+          быть ограничено периодом ожидания, а смена
+          Block Strike ID может потребовать повторной проверки.
+        </p>
+      </article>
+    </section>
+
+    <!-- ПРАВИЛА -->
     <section class="section" id="rules">
-      <div class="tag">01 / RULEBOOK</div>
+      <div class="tag">02 / RULEBOOK</div>
       <h2>ПРАВИЛА <span>ДУЭЛЕЙ</span></h2>
       <p class="muted">
         Перед первой игрой обязательно ознакомься
@@ -102,8 +254,9 @@
       </div>
     </section>
 
+    <!-- МАТЧИ -->
     <section class="section dark-section" id="matches">
-      <div class="tag">02 / MATCH FLOW</div>
+      <div class="tag">03 / MATCH FLOW</div>
       <h2>КАК ПРОХОДИТ <span>МАТЧ</span></h2>
 
       <article class="rule">
@@ -127,8 +280,9 @@
       </article>
     </section>
 
+    <!-- ДОКАЗАТЕЛЬСТВА -->
     <section class="section" id="evidence">
-      <div class="tag">03 / PROOF & REPORTS</div>
+      <div class="tag">04 / PROOF & REPORTS</div>
       <h2>ДОКАЗАТЕЛЬСТВА <span>И ЖАЛОБЫ</span></h2>
       <article class="rule">
         <h3>Скриншот результата</h3>
@@ -157,8 +311,9 @@
   <footer>
     <a href="#" class="logo">FACEIT<span>.</span></a>
     <small>BLOCK STRIKE DUELS · FAIR PLAY</small>
-    <a href="#rules">К правилам ↑</a>
+    <a href="#registration">К регистрации ↑</a>
   </footer>
   <script src="script.js"></script>
 </body>
 </html>
+```
