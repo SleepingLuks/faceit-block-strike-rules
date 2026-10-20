@@ -10,9 +10,18 @@
 <body>
   <header class="header">
     <a href="#" class="logo">FACEIT<span>.</span></a>
-    <nav>
+    <nav class="header-nav">
       <a href="https://t.me/KnifeModeFaceit"
          target="_blank" rel="noopener noreferrer">Telegram ↗</a>
+      <label class="language-picker">
+        <span class="language-icon" aria-hidden="true">文</span>
+        <span class="sr-only">Язык страницы</span>
+        <select id="language-select" aria-label="Выбрать язык страницы">
+          <option value="ru">🇷🇺 Русский</option>
+          <option value="en">🇬🇧 English</option>
+          <option value="pt-BR">🇧🇷 Português (Brasil)</option>
+        </select>
+      </label>
     </nav>
   </header>
 
